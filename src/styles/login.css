@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #fffaf3;
+}
+
+.login-page {
+  margin: 0;
+  width: 100vw;
+  flex-direction: row;
+  display: flex;
+  height: 100vh;
+  overflow: hidden;
+  background-color: #fff6e5;
+}
+
+.left-pane {
+  flex: 0.45;
+  background-color: #fff2cc;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  border-top-right-radius: 60px;
+  border-bottom-right-radius: 60px;
+}
+
+.calendar-image {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 12px;
+}
+
+.app-title {
+  font-size: 36px;
+  color: #6a4e3f;
+  margin-bottom: 8px;
+}
+
+.tagline {
+  font-size: 16px;
+  color: #7e6656;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.right-pane {
+  flex: 0.55;
+  background-color: #fff6e5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+
+.login-form-box {
+  background-color: #fff2e0;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.05);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+.login-form-box h2 {
+  margin-bottom: 20px;
+  color: #4c392e;
+  font-size: 24px;
+}
+
+.role-select {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  border: 1px solid #d1c4aa;
+  font-size: 14px;
+  background-color: #fffaf2;
+  color: #4c392e;
+}
+
+.login-form input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 14px;
+  border: 1px solid #d6c8b0;
+  border-radius: 10px;
+  background-color: #fffef8;
+  font-size: 14px;
+  color: #4c392e;
+}
+
+.login-form button {
+  width: 100%;
+  padding: 12px;
+  background-color: #e0b973;
+  color: white;
+  font-weight: 600;
+  border: none;
+  border-radius: 10px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.login-form button:hover {
+  background-color: #d4a75d;
+}
+
+.form-links {
+  margin-top: 14px;
+  font-size: 13px;
+  color: #6a4e3f;
+}
+
+.form-links a {
+  color: #6a4e3f;
+  text-decoration: none;
+  margin: 0 5px;
+}
+
+.form-links a:hover {
+  text-decoration: underline;
+}
